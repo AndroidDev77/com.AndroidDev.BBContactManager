@@ -243,7 +243,7 @@ public final class ContactAdder extends Activity implements OnAccountsUpdateList
      */
     public void onAccountsUpdated(Account[] a) {
         Log.i(TAG, "Account list update detected");
-        // Clear out any old data to prevent duplicates
+        // Clear out any old data to prevent duplicatet
         mAccounts.clear();
 
         // Get account data from system
